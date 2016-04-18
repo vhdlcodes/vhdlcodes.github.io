@@ -36,7 +36,7 @@
 
 &lt;h2 id=&#34;code:fc0ff499f38df1c14e47a042167f42e9&#34;&gt;Code:&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt; library IEEE;
+&lt;pre&gt;&lt;code class=&#34;language-vhdl&#34;&gt; library IEEE;
 
  use IEEE.STD_LOGIC_1164.ALL;
  use IEEE.numeric_std.all;
