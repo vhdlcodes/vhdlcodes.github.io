@@ -2,6 +2,7 @@ baseurl = "http://vhdlcodes.github.io/"
 languageCode = "en-us"
 title = "vhdlCodes"
 theme = "hugo-future-imperfect"
+copyright = "Copyright (c) 2009-2016, Prasad Pandit, vhdlcodes.com; All Rights Reserved"
 preserveTaxonomyNames = true
 paginate = 3
 
@@ -41,15 +42,15 @@ paginate = 3
 
         about     = "Tony Stark"
 
-    # # This is optional
-    # [params.intro.pic]
-    # src       = "/img/main/logo.jpg"
-    # # modify your picture in the shape of a circle or
-    # # future imperfect's hexagonal shape
-    # circle    = false
-    # imperfect = true
-    # width     = ""
-    # alt       = "Hugo Future Imperfect"
+    # This is optional
+    [params.intro.pic]
+    src       = "/img/main/logo.png"
+    # modify your picture in the shape of a circle or
+    # future imperfect's hexagonal shape
+    circle    = true
+    imperfect = false
+    width     = ""
+    alt       = "Prasad Pandit"
 
     [params.postAmount]
     sidebar = 2
