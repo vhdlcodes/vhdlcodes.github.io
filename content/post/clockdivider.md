@@ -2,10 +2,10 @@
 author = "Prasad Pandit"
 categories = ["VHDL","FPGA"]
 date = "2016-04-17T03:25:46-07:00"
-description = "How to Blink and LED using FPGA"
+description = "How to Blink LED using FPGA"
 featured = ""
 featuredalt = ""
-featuredpath = "date"
+featuredpath = ""
 linktitle = ""
 title = "Simple Clock Divider using VHDL"
 type = "post"
@@ -30,7 +30,7 @@ To get your desired frequency just calculate the maxcount with the formula given
 
 ## Code:
 
-```
+```vhdl
  library IEEE;
 
  use IEEE.STD_LOGIC_1164.ALL;
