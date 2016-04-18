@@ -36,51 +36,7 @@
 
 &lt;h2 id=&#34;code:fc0ff499f38df1c14e47a042167f42e9&#34;&gt;Code:&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-vhdl&#34;&gt; library IEEE;
-
- use IEEE.STD_LOGIC_1164.ALL;
- use IEEE.numeric_std.all;
-
- entity clk_div is
-    Port (
-          Clk   : in std_logic;
-          rst   : in std_logic;
-          op    : out std_logic
-    );
- end clk_div;
-
-
- architecture behavioral of clk_div is
-
-    constant max_count : natural := 24000000;
-
- begin
-
-  process(Clk,rst)
-        variable count : natural range 0 to max_count;
-
-    begin
-        if rst = &#39;0&#39; then
-            count := 0;
-            op    &amp;lt;= &#39;1&#39;;
-        elsif rising_edge(Clk) then
-            if count &amp;lt; (max_count/2)-1 then
-                op    &amp;lt;=&#39;1&#39;;
-                count := count + 1;
-            elsif count &amp;lt; max_count-1 then
-                op    &amp;lt;=&#39;0&#39;;
-                count := count + 1;
-            else
-                count := 0;
-                op    &amp;lt;=&#39;1&#39;;
-            end if;
-     end if;
-
-  end process;
-
- end behavioral;
-
-&lt;/code&gt;&lt;/pre&gt;
+&lt;script src=&#34;//gist.github.com/prasadp4009/a9e8781877dcd44e394dfc0730654bca.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
