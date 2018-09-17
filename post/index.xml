@@ -6,9 +6,11 @@
     <description>Recent content in Posts on vhdlCodes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2009-2016, Prasad Pandit, vhdlcodes.com; All Rights Reserved</copyright>
+    <copyright>Copyright (c) 2009-2018, Prasad Pandit, vhdlcodes.com; All Rights Reserved</copyright>
     <lastBuildDate>Sun, 17 Apr 2016 03:25:46 -0700</lastBuildDate>
-    <atom:link href="http://vhdlcodes.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://vhdlcodes.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Simple Clock Divider using VHDL</title>
@@ -16,39 +18,19 @@
       <pubDate>Sun, 17 Apr 2016 03:25:46 -0700</pubDate>
       
       <guid>http://vhdlcodes.github.io/post/clockdivider/</guid>
-      <description>
-
-&lt;p&gt;When I started working with VHDL and FPGAs, the first ever project that came to my mind was blinking an LED. But since we all know that most of the development boards have high frequency clocks from around 20MHz to as high you can get. So if we directly connect that clock to LED the blink rate will be so high that it will not be visible to our naked eye.&lt;/p&gt;
-
-&lt;p&gt;To blink an LED the simplest method is dividing a clock. I have used a simple counter which counts up to certain maximum value and flips the output signal.  For this project I am using &lt;code&gt;Altera DE-1 board&lt;/code&gt;. Following is the logic to blink an LED.&lt;/p&gt;
-
-&lt;p&gt;This is a clock divider code, just set the max-count value as per your requirenment.&lt;/p&gt;
-
-&lt;p&gt;For ex. If I want 1Hz freq. set the max count to i/p freq value viz.
-1sec = 1Hz&lt;/p&gt;
-
-&lt;p&gt;Then, to get time period of 1sec i.e. 1 Hz frequency set max-count to 240000 as shown below:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;1sec  =  24000000  -- for i/p frequency of 24 MHz&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To get your desired frequency just calculate the maxcount with the formula given below:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;max_count = 24000000 * (1/your required frequency)&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;code:fc0ff499f38df1c14e47a042167f42e9&#34;&gt;Code:&lt;/h2&gt;
-
-&lt;script src=&#34;//gist.github.com/prasadp4009/a9e8781877dcd44e394dfc0730654bca.js&#34;&gt;&lt;/script&gt;
-</description>
+      <description>When I started working with VHDL and FPGAs, the first ever project that came to my mind was blinking an LED. But since we all know that most of the development boards have high frequency clocks from around 20MHz to as high you can get. So if we directly connect that clock to LED the blink rate will be so high that it will not be visible to our naked eye.</description>
     </item>
     
     <item>
-      <title>welcome</title>
+      <title>Welcome</title>
       <link>http://vhdlcodes.github.io/post/welcome/</link>
       <pubDate>Sun, 17 Apr 2016 02:12:27 -0700</pubDate>
       
       <guid>http://vhdlcodes.github.io/post/welcome/</guid>
-      <description>&lt;p&gt;Welcome to vhdlcodes.com&lt;/p&gt;
-</description>
+      <description>Welcome to vhdlcodes.com
+I enjoy reading quotes and trying to apply them in real life. One of my favourite which took me on this adventure is
+ Sometimes there is no next time, no time-outs, no second chances. Sometimes it’s now or never. - Alan Bennett
+ This inspired me so much that I opened my laptop and started writing blog on whatever good tech stuff I knew about. First I started with C optimization, but later as my interest grew towards Hardware design, I started writing more about HLDs.</description>
     </item>
     
   </channel>
