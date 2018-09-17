@@ -1,6 +1,6 @@
 +++
 author = "Prasad Pandit"
-categories = ["VHDL","FPGA"]
+categories_include = ["VHDL","FPGA"]
 date = "2016-04-17T03:25:46-07:00"
 description = "How to Blink LED using FPGA"
 featured = ""
@@ -29,5 +29,5 @@ To get your desired frequency just calculate the maxcount with the formula given
 `max_count = 24000000 * (1/your required frequency)`
 
 ## Code:
-
+<a class="github-button" href="https://github.com/vhdlcodes/clock_div_1Hz_vhdl/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download From GitHub" align="right">Download</a>
 {{< gist prasadp4009 a9e8781877dcd44e394dfc0730654bca >}}

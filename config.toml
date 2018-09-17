@@ -2,7 +2,7 @@ baseurl = "http://vhdlcodes.github.io/"
 languageCode = "en-us"
 title = "vhdlCodes"
 theme = "hugo-future-imperfect"
-copyright = "Copyright (c) 2009-2016, Prasad Pandit, vhdlcodes.com; All Rights Reserved"
+copyright = "Copyright (c) 2009-2018, Prasad Pandit, vhdlcodes.com; All Rights Reserved"
 preserveTaxonomyNames = true
 paginate = 3
 
@@ -40,7 +40,7 @@ paginate = 3
 
         paragraph = "A tech blog by a crazy engineer, FPGA enthusiast, prototyper and Iron Man fan Prasad Pandit"
 
-        about     = "Tony Stark"
+        about     = "Prasad Pandit"
 
     # This is optional
     [params.intro.pic]
