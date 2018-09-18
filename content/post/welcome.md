@@ -17,7 +17,7 @@ I enjoy reading quotes and trying to apply them in real life. One of my favourit
 
 >Sometimes there is no next time, no time-outs, no second chances. Sometimes it’s now or never. - Alan Bennett
 
-This inspired me so much that I opened my laptop and started writing blog on whatever good tech stuff I knew about. First I started with C optimization, but later as my interest grew towards Hardware design, I started writing more about HLDs.
+This inspired me so much that I opened my laptop and started writing blog on whatever good tech stuff I knew about. First I started with C optimization, but later as my interest grew towards Hardware design, I started writing more about HDLs.
 
 This gave birth to [vhdlcodes.com]
 

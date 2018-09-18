@@ -25,6 +25,17 @@ paginate = 3
     # Please see the favicon partial template for more information
     loadFavicon          = false
     faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Sets specific share to appear on posts (default behavior is to appear)
+  socialShareTwitter   = true
+  socialShareGoogleplus = true
+  socialShareFacebook  = true
+  socialShareReddit    = true
+  socialShareLinkedin  = true
+  socialShareStumbleupon = false
+  socialSharePinterest = true
+  socialShareEmail     = true
 
     # Load custom CSS or JavaScript files. This replaces the deprecated params
     # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you

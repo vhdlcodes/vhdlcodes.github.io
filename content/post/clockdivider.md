@@ -1,6 +1,6 @@
 +++
 author = "Prasad Pandit"
-categories_include = ["VHDL","FPGA"]
+categories = ["VHDL","FPGA"]
 date = "2016-04-17T03:25:46-07:00"
 description = "How to Blink LED using FPGA"
 featured = ""
