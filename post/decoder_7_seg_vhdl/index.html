@@ -1,13 +1,3 @@
-
-
-
-    
-        
-    
-
-
-
-
 <!DOCTYPE HTML>
 
 <html>
@@ -20,10 +10,10 @@
              "@type": "WebPage",
              "@id": "http://vhdlcodes.github.io/"
         },
-        "articleSection" : "categories",
-        "name" : "FPGA",
-        "headline" : "FPGA",
-        "description" : "",
+        "articleSection" : "post",
+        "name" : "7-seg decoder VHDL",
+        "headline" : "7-seg decoder VHDL",
+        "description" : "Simple 7-seg decoder in VHDL",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -33,13 +23,15 @@
         "copyrightYear" : "2018",
         "datePublished": "2018-09-18 02:24:43 -0700 PDT",
         "dateModified" : "2018-09-18 02:24:43 -0700 PDT",
-        "url" : "http://vhdlcodes.github.io/categories/fpga/",
-        "wordCount" : "0",
+        "url" : "http://vhdlcodes.github.io/post/decoder_7_seg_vhdl/",
+        "wordCount" : "113",
         "keywords" : [ "Blog" ]
     }
     </script>
         
-            <title>FPGA Posts - vhdlCodes</title>
+            
+                <title>7-seg decoder VHDL</title>
+            
         
 
         <meta charset="utf-8" />
@@ -49,25 +41,28 @@
 
 
         
+            <meta name="author" content="Prasad Pandit">
         
-            
-                <meta name="description" content="This is a tech blog by Prasad Pandit for students, engineers and hobbyists who want to learn about FPGAs and new technology">
-            
+        
+            <meta name="description" content="Simple 7-seg decoder in VHDL">
         
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="FPGA"/>
-<meta name="twitter:description" content="This is a tech blog by Prasad Pandit for students, engineers and hobbyists who want to learn about FPGAs and new technology"/>
+<meta name="twitter:title" content="7-seg decoder VHDL"/>
+<meta name="twitter:description" content="Simple 7-seg decoder in VHDL"/>
 <meta name="twitter:site" content="@tonystark_hdl"/>
 
-        <meta property="og:title" content="FPGA" />
-<meta property="og:description" content="This is a tech blog by Prasad Pandit for students, engineers and hobbyists who want to learn about FPGAs and new technology" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://vhdlcodes.github.io/categories/fpga/" />
+        <meta property="og:title" content="7-seg decoder VHDL" />
+<meta property="og:description" content="Simple 7-seg decoder in VHDL" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://vhdlcodes.github.io/post/decoder_7_seg_vhdl/" />
 
 
 
-<meta property="og:updated_time" content="2018-09-18T02:24:43-07:00"/>
+<meta property="article:published_time" content="2018-09-18T02:24:43-07:00"/>
+
+<meta property="article:modified_time" content="2018-09-18T02:24:43-07:00"/>
+
 
 
 
@@ -83,9 +78,17 @@
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         
-<meta itemprop="name" content="FPGA">
-<meta itemprop="description" content="This is a tech blog by Prasad Pandit for students, engineers and hobbyists who want to learn about FPGAs and new technology">
+<meta itemprop="name" content="7-seg decoder VHDL">
+<meta itemprop="description" content="Simple 7-seg decoder in VHDL">
 
+
+<meta itemprop="datePublished" content="2018-09-18T02:24:43-07:00" />
+<meta itemprop="dateModified" content="2018-09-18T02:24:43-07:00" />
+<meta itemprop="wordCount" content="113">
+
+
+
+<meta itemprop="keywords" content="" />
 
         
 
@@ -119,6 +122,7 @@
       <div id="wrapper">
 
     
+    
 <header id="header">
     
       <h1><a href="/">vhdlCodes</a></h1>
@@ -149,6 +153,10 @@
     </nav>
     <nav class="main">
         <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -258,16 +266,102 @@
         
 </section>
 
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f&amp;text=7-seg%20decoder%20VHDL&amp;via=tonystark_hdl" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f&amp;title=7-seg%20decoder%20VHDL" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f&amp;title=7-seg%20decoder%20VHDL" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f&amp;description=7-seg%20decoder%20VHDL" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Prasad%20Pandit&amp;body=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
     
     <div id="main">
-        <h1>FPGA</h1>
         
         
-            <article class="post">
+        <article class="post">
   <header>
     <div class="title">
         
-            <h2><a href="/post/decoder_7_seg_vhdl/">7-seg decoder VHDL</a></h2>
+            <h1><a href="/post/decoder_7_seg_vhdl/">7-seg decoder VHDL</a></h1>
+            
         
         
             <p>Simple 7-seg decoder in VHDL</p>
@@ -287,15 +381,128 @@
     </div>
 </header>
 
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f&amp;text=7-seg%20decoder%20VHDL&amp;via=tonystark_hdl" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f&amp;title=7-seg%20decoder%20VHDL" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f&amp;title=7-seg%20decoder%20VHDL" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f&amp;description=7-seg%20decoder%20VHDL" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Prasad%20Pandit&amp;body=http%3a%2f%2fvhdlcodes.github.io%2fpost%2fdecoder_7_seg_vhdl%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
   
 
   
-  <p>Most of the FPGAs have 7-segment decoders. These 7-seg displays are of following type:</p>
+
+  <div id="content">
+    
+
+<p>Most of the FPGAs have 7-segment decoders. These 7-seg displays are of following type:</p>
+
+<ol>
+<li>Common Anode
+
+<ul>
+<li>All the anode i.e. +ve pins of LEDs connected to &lsquo;1&rsquo; in digital design terms</li>
+<li>Cathodes i.e. -ve pins are used to turn-on or turn-off LED segments by setting &lsquo;0&rsquo; or &lsquo;1&rsquo;</li>
+</ul></li>
+<li>Common Cathode
+
+<ul>
+<li>All the cathode i.e. -ve pins of LEDs connected to &lsquo;0&rsquo; in digital design terms</li>
+<li>Anodes i.e. +ve pins are used to turn-on or turn-off LED segments by setting &lsquo;1&rsquo; or &lsquo;0&rsquo;</li>
+</ul></li>
+</ol>
+
+<p>Following is the code for 7-seg decoder. Depending on which board you are using, you will need to set value of seg_type parameter.</p>
+
+<ul>
+<li>&lsquo;1&rsquo; for common-anode</li>
+<li>&lsquo;0&rsquo; for common-cathode</li>
+</ul>
+
+<h2 id="code">Code:</h2>
+
+<p><a class="github-button" href="https://github.com/vhdlcodes/seg7_decoder_vhdl/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download From GitHub" align="right">Download</a>
+<script src="https://gist.github.com/prasadp4009/4a0d58cafa3739eb6f81e164188a05f4.js"></script></p>
+
+  </div>
+
   <footer>
-    <ul class="actions">
-      <li><a href="/post/decoder_7_seg_vhdl/" class="button big">Continue Reading</a></li>
-    </ul>
-  <ul class="stats">
+    <ul class="stats">
   <li class="categories">
     <ul>
         
@@ -321,81 +528,19 @@
 </ul>
 
   </footer>
+
 </article>
 
-        
-            <article class="post">
-  <header>
-    <div class="title">
-        
-            <h2><a href="/post/clockdivider/">Simple Clock Divider using VHDL</a></h2>
-        
-        
-            <p>How to Blink LED using FPGA</p>
-        
-    </div>
-    <div class="meta">
-        
 
-        <time class="published"
-            datetime='2016-04-17'>
-            April 17, 2016</time>
-        <span class="author">Prasad Pandit</span>
-        
-            <p>1 minute read</p>
-        
-        
-    </div>
-</header>
-
-  
-
-  
-  <p>When I started working with VHDL and FPGAs, the first ever project that came to my mind was blinking an LED. But since we all know that most of the development boards have high frequency clocks from around 20MHz to as high you can get. So if we directly connect that clock to LED the blink rate will be so high that it will not be visible to our naked eye.</p>
-  <footer>
-    <ul class="actions">
-      <li><a href="/post/clockdivider/" class="button big">Continue Reading</a></li>
-    </ul>
-  <ul class="stats">
-  <li class="categories">
-    <ul>
-        
-            
-            
-                <i class="fa fa-folder"></i>
-                
-                
-                <li><a class="article-category-link" href="http://vhdlcodes.github.io/categories/vhdl">VHDL</a></li>
-                
-                
-                <li><a class="article-category-link" href="http://vhdlcodes.github.io/categories/fpga">FPGA</a></li>
-                
-            
-        
-    </ul>
-  </li>
-  <li class="tags">
-    <ul>
-        
-    </ul>
-  </li>
-</ul>
-
-  </footer>
-</article>
-
-        
-
-        
 <ul class="actions pagination">
     
-        <li><a href="#" class="disabled button big previous">Previous Page</a></li>
+        <li><a href="/post/clockdivider/"
+                class="button big previous">Simple Clock Divider using VHDL</a></li>
     
 
     
-        <li><a href="#" class="disabled button big next">Next Page</a></li>
-    
 </ul>
+
 
     </div>
     
