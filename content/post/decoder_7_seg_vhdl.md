@@ -29,3 +29,5 @@ Following is the code for 7-seg decoder. Depending on which board you are using,
 ## Code:
 <a class="github-button" href="https://github.com/vhdlcodes/seg7_decoder_vhdl/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download From GitHub" align="right">Download</a>
 <script src="https://gist.github.com/prasadp4009/4a0d58cafa3739eb6f81e164188a05f4.js"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>

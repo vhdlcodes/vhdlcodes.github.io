@@ -1,11 +1,11 @@
-baseurl = "http://vhdlcodes.github.io/"
+baseurl = "https://vhdlcodes.github.io/"
 languageCode = "en-us"
 title = "vhdlCodes"
 theme = "hugo-future-imperfect"
 copyright = "Copyright (c) 2009-2018, Prasad Pandit, vhdlcodes.com; All Rights Reserved"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "vhdlcodes-github-io.disqus.com"
+disqusShortname = "vhdlcodes-github-io"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page

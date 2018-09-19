@@ -31,3 +31,5 @@ To get your desired frequency just calculate the maxcount with the formula given
 ## Code:
 <a class="github-button" href="https://github.com/vhdlcodes/clock_div_1Hz_vhdl/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download From GitHub" align="right">Download</a>
 {{< gist prasadp4009 a9e8781877dcd44e394dfc0730654bca >}}
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
