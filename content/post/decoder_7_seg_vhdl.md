@@ -26,8 +26,14 @@ Following is the code for 7-seg decoder. Depending on which board you are using,
 * '1' for common-anode
 * '0' for common-cathode
 
+Use a Applet below to play with the values that you can get when you click on individual segment.
+You can select your 7-seg type by clicking on CMN Anode button. Compare these values with code below for better understanding.
+
+<iframe src="https://editor.p5js.org/embed/HkL3js_t7" style="width:410px; height:240px;"></iframe>
+
 ## Code:
 <a class="github-button" href="https://github.com/vhdlcodes/seg7_decoder_vhdl/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download From GitHub" align="right">Download</a>
 <script src="https://gist.github.com/prasadp4009/4a0d58cafa3739eb6f81e164188a05f4.js"></script>
+
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

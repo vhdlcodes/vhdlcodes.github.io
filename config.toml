@@ -35,7 +35,7 @@ disqusShortname = "vhdlcodes-github-io"
   socialShareReddit    = true
   socialShareLinkedin  = true
   socialShareStumbleupon = false
-  socialSharePinterest = true
+  socialSharePinterest = false
   socialShareEmail     = true
 
     # Load custom CSS or JavaScript files. This replaces the deprecated params
