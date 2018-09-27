@@ -1,4 +1,4 @@
-baseurl = "https://vhdlcodes.github.io/"
+baseurl = "https://vhdlcodes.com/"
 languageCode = "en-us"
 title = "vhdlCodes"
 theme = "hugo-future-imperfect"
@@ -6,12 +6,18 @@ copyright = "Copyright (c) 2009-2018, Prasad Pandit, vhdlcodes.com; All Rights R
 preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "vhdlcodes-github-io"
+googleAnalytics = "UA-126572037-1"
+# Set the followings to true as part of your site SEO
+enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
     description          = "This is a tech blog by Prasad Pandit for students, engineers and hobbyists who want to learn about FPGAs and new technology"
     # This will appear on the top left of the navigation bar
     navbarTitle          = "vhdlCodes"
+    # Sets navbarTitle to match the section of the website
+    dynamicTitles        = true
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = true
     socialAppearAtBottom = true
@@ -21,22 +27,24 @@ disqusShortname = "vhdlcodes-github-io"
     #Optional Params
     categoriesByCount    = true
     includeReadingTime   = true
+    # set to show or to hide categories in the sidebar
+    showSidebarCategories = true
     # The set of favicons used are based on the write-up from this link:
     # https://github.com/audreyr/favicon-cheat-sheet
     # Please see the favicon partial template for more information
     loadFavicon          = false
     faviconVersion       = ""
-  # Sets Social Share links to appear on posts
-  socialShare          = true
-  # Sets specific share to appear on posts (default behavior is to appear)
-  socialShareTwitter   = true
-  socialShareGoogleplus = true
-  socialShareFacebook  = true
-  socialShareReddit    = true
-  socialShareLinkedin  = true
-  socialShareStumbleupon = false
-  socialSharePinterest = false
-  socialShareEmail     = true
+    # Sets Social Share links to appear on posts
+    socialShare          = true
+    # Sets specific share to appear on posts (default behavior is to appear)
+    socialShareTwitter   = true
+    socialShareGoogleplus = true
+    socialShareFacebook  = true
+    socialShareReddit    = true
+    socialShareLinkedin  = true
+    socialShareStumbleupon = false
+    socialSharePinterest = false
+    socialShareEmail     = true
 
     # Load custom CSS or JavaScript files. This replaces the deprecated params
     # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you
@@ -65,7 +73,7 @@ disqusShortname = "vhdlcodes-github-io"
     alt       = "Prasad Pandit"
 
     [params.postAmount]
-    sidebar = 2
+    sidebar = 5
 
     # Set up your menu items in the navigation bar
     # You can use identifier to prepend a font awesome icon to your text
@@ -77,19 +85,26 @@ disqusShortname = "vhdlcodes-github-io"
 
     [[menu.main]]
         name = "Projects"
-        url = "/post"
+        url = "/post/"
         identifier = "fa fa-newspaper-o"
         weight = 2
 
     [[menu.main]]
         name = "Categories"
-        url = "/categories"
+        url = "/categories/"
+        identifier = "fa fa-sitemap"
         weight = 3
 
     [[menu.main]]
         name = "About"
         url = "/about/"
+        identifier = "fa fa-id-card-o"
         weight = 4
+    [[menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        identifier = "fa fa-envelope-o"
+        weight = 5
 
     # Insert your username and the icon will apear on the page as long as
     # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
@@ -98,6 +113,5 @@ disqusShortname = "vhdlcodes-github-io"
     github          = "prasadp4009"
     youtube         = "pulsee250i"
     linkedin        = "panditprasad"
-    googleplus      = "prasadp4009"
     twitter         = "tonystark_hdl"
     email           = "prasadp4009@gmail.com"

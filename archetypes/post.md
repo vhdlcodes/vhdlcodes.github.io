@@ -9,7 +9,6 @@ featuredpath = ""
 linktitle = ""
 title = ""
 type = "post"
-footer = {{ partial "dwldbtn.html" . }}
 
 +++
 
