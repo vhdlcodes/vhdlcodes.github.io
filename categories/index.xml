@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on vhdlCodes</title>
-    <link>https://vhdlcodes.github.io/categories/</link>
+    <link>https://vhdlcodes.com/categories/</link>
     <description>Recent content in Categories on vhdlCodes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2009-2018, Prasad Pandit, vhdlcodes.com; All Rights Reserved</copyright>
     
-	<atom:link href="https://vhdlcodes.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vhdlcodes.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>FPGA</title>
-      <link>https://vhdlcodes.github.io/categories/fpga/</link>
+      <link>https://vhdlcodes.com/categories/fpga/</link>
       <pubDate>Tue, 18 Sep 2018 02:24:43 -0700</pubDate>
       
-      <guid>https://vhdlcodes.github.io/categories/fpga/</guid>
+      <guid>https://vhdlcodes.com/categories/fpga/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VHDL</title>
-      <link>https://vhdlcodes.github.io/categories/vhdl/</link>
+      <link>https://vhdlcodes.com/categories/vhdl/</link>
       <pubDate>Tue, 18 Sep 2018 02:24:43 -0700</pubDate>
       
-      <guid>https://vhdlcodes.github.io/categories/vhdl/</guid>
+      <guid>https://vhdlcodes.com/categories/vhdl/</guid>
       <description></description>
     </item>
     
