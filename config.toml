@@ -7,6 +7,7 @@ preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "vhdlcodes-github-io"
 googleAnalytics = "UA-126572037-1"
+#adsensePublisher = "ca-pub-0360776933260327"
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
 canonifyURLs = true
@@ -86,7 +87,7 @@ canonifyURLs = true
     [[menu.main]]
         name = "Projects"
         url = "/post/"
-        identifier = "fa fa-newspaper-o"
+        identifier = "fa fa-terminal"
         weight = 2
 
     [[menu.main]]
@@ -104,6 +105,11 @@ canonifyURLs = true
         name = "Contact"
         url = "/contact/"
         identifier = "fa fa-envelope-o"
+        weight = 5
+    [[menu.main]]
+        name = "Old Blog"
+        url = "http://jimmy-embedded-c-n-vhdl.blogspot.com/"
+        identifier = "fa fa-hand-o-up"
         weight = 5
 
     # Insert your username and the icon will apear on the page as long as
