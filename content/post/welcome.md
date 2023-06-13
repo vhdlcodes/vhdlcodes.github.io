@@ -2,7 +2,7 @@
 date = "2016-04-17T02:12:27-07:00"
 draft = false
 title = "Welcome"
-description = "Intro to vhdlcodes.com"
+description = "Intro to vhdl.codes"
 featured = ""
 featuredalt = ""
 featuredpath = ""
@@ -11,7 +11,7 @@ type = "post"
 
 +++
 
-Welcome to vhdlcodes.com
+Welcome to vhdl.codes
 
 I enjoy reading quotes and trying to apply them in real life. One of my favourite which took me on this adventure is
 
@@ -19,7 +19,7 @@ I enjoy reading quotes and trying to apply them in real life. One of my favourit
 
 This inspired me so much that I opened my laptop and started writing blog on whatever good tech stuff I knew about. First I started with C optimization, but later as my interest grew towards Hardware design, I started writing more about HDLs.
 
-This gave birth to [vhdlcodes.com]
+This gave birth to [vhdl.codes]
 
 Purpose behind this website is to help hobbyists, students and engineers understand and playaround with Hardware Description Languages in a practical way by understanding and implementing the easy examples.
 
@@ -27,4 +27,4 @@ I have started working on my blog and videos again. I planned it earlier but lif
 
 So enjoy the content!
 
-[vhdlcodes.com]: http://www.vhdlcodes.com
+[vhdl.codes]: http://www.vhdl.codes
