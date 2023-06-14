@@ -29,7 +29,7 @@ Following is the code for 7-seg decoder. Depending on which board you are using,
 Use a Applet below to play with the values that you can get when you click on individual segment.
 You can select your 7-seg type by clicking on CMN Anode button. Compare these values with code below for better understanding.
 
-<iframe src="https://editor.p5js.org/embed/HkL3js_t7" style="width:410px; height:240px;"></iframe>
+<iframe src="https://editor.p5js.org/Tonystark4009/sketches/HkL3js_t7" style="width:410px; height:240px;"></iframe>
 
 ## Code:
 <a class="github-button" href="https://github.com/vhdlcodes/seg7_decoder_vhdl/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download From GitHub" align="right">Download</a>
